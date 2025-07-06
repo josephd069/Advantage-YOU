@@ -15,7 +15,7 @@ export default function Cart() {
       {items.length === 0 ? (
         <div className="text-center py-20">
           <p className="text-lg text-gray-600 mb-4">Your cart is empty.</p>
-          <Link to="/" className="text-green-600 hover:underline">
+          <Link to="/Advantage-YOU" className="text-green-600 hover:underline">
             Start Shopping
           </Link>
         </div>
