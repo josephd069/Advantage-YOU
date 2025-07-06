@@ -13,12 +13,12 @@ import Checkout from './pages/Checkout';
 export default function App() {
   return (
     <CartProvider>
-      <HashRouter basename='/advantage-you'>
+      <HashRouter basename='/Advantage-YOU'>
         <Header />
         <Navbar />
         <main className="bg-green-50">
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/Advantage-YOU" element={<Home />} />
             <Route path="/catalog/:category" element={<Catalog />} />
             <Route path="/search" element={<SearchResults />} />
             <Route path="/product/:id" element={<ProductDetail />} />
