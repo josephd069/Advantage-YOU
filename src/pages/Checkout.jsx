@@ -29,7 +29,7 @@ export default function Checkout() {
     setPayment({ ...payment, [e.target.name]: e.target.value });
 
   return (
-    <div className="max-w-3xl mx-auto px-6 py-12">
+    <div className="max-w-3xl h-screen mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold mb-8">Checkout</h1>
 
       {/* Step Indicator */}

@@ -9,7 +9,7 @@ export default function Header() {
   const count = items.reduce((sum, i) => sum + i.qty, 0);
 
   return (
-    <header className="sticky top-0 z-30 bg-white shadow-md">
+    <header className="sticky top-0 z-30 bg-green-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center">
         <Link to="/" className="text-2xl font-bold text-green-600 hover:text-green-700">
           Advantage-YOU

@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <div>
       <HeroCarousel />
-      <div className="max-w-7xl mx-auto px-6 py-12 space-y-16">
+      <div className="max-w-7xl mx-auto py-12 space-y-16">
         {cats.map(cat => {
           const best = products.filter(p => p.category === cat && p.bestSeller).slice(0, 4);
           return (
             <section key={cat}>
               <div className="flex items-center justify-between mb-6">
                 <h2 className="text-2xl font-bold capitalize">Best Selling {cat}</h2>
-                <Link to={`/catalog/${cat}`} className="text-green-600 hover:underline font-medium">
+                <Link to={`/catalog/${cat}`} className="text-green-600 hover:animate-[spin_1.8s_linear_infinite] hover:underline font-medium">
                   View All
                 </Link>
               </div>

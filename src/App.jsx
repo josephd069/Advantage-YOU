@@ -13,10 +13,10 @@ import Checkout from './pages/Checkout';
 export default function App() {
   return (
     <CartProvider>
-      <HashRouter>
+      <HashRouter basename='/advantage-you'>
         <Header />
         <Navbar />
-        <main className="p-1">
+        <main className="bg-green-50">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/catalog/:category" element={<Catalog />} />
