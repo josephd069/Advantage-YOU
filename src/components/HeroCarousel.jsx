@@ -58,7 +58,7 @@ export default function HeroCarousel() {
       {/* arrows */}
       <button
         onClick={prev}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-75 p-2 rounded-full hover:bg-opacity-100 z-10 cursor-pointer"
+        className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-75 p-2 rounded-full hover:bg-opacity-100 z-10 cursor-pointer"
       >◀</button>
       <button
         onClick={next}
