@@ -18,7 +18,7 @@ export default function App() {
         <Navbar />
         <main className="bg-green-50">
           <Routes>
-            <Route path="/Advantage-YOU" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/catalog/:category" element={<Catalog />} />
             <Route path="/search" element={<SearchResults />} />
             <Route path="/product/:id" element={<ProductDetail />} />
