@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         {/* Explore Section */}
-        <div>
+        <div className='mx-75'>
           <h3 className="text-xl font-semibold mb-3">Explore</h3>
           <ul className="space-y-2 text-sm">
             <li><Link to="/catalog/rackets" className="hover:underline">Rackets</Link></li>

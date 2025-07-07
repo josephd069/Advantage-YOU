@@ -1,14 +1,18 @@
 // src/components/HeroCarousel.jsx
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import racket from  "/images/hero-rackets.jpeg"
+import racket from  "/images/hero-rackets.jpeg";
+import grip from '/images/hero-grips.webp';
+import apparel from '/images/hero-apparel.webp';
+import bags from '/images/hero-bags.jpg';
+import balls from '/images/hero-balls.jpg';
 
 const slides = [
   { category: 'rackets', imageUrl: racket, slogan: 'Find Your Perfect Swing', link: '/catalog/rackets' },
-  { category: 'grips',   imageUrl: '/images/hero-grips.webp',   slogan: 'Get a Grip on Your Game',  link: '/catalog/grips'   },
-  { category: 'apparel', imageUrl: '/images/hero-apparel.webp',  slogan: 'Play in Style',            link: '/catalog/apparel' },
-  { category: 'bags',    imageUrl: '/images/hero-bags.jpg',     slogan: 'Carry Your Gear with Ease', link: '/catalog/bags'    },
-  { category: 'balls',   imageUrl: '/images/hero-balls.jpg',    slogan: 'Hit Every Shot',           link: '/catalog/balls'   }
+  { category: 'grips',   imageUrl: grip,   slogan: 'Get a Grip on Your Game',  link: '/catalog/grips'   },
+  { category: 'apparel', imageUrl: apparel,  slogan: 'Play in Style',            link: '/catalog/apparel' },
+  { category: 'bags',    imageUrl: bags,     slogan: 'Carry Your Gear with Ease', link: '/catalog/bags'    },
+  { category: 'balls',   imageUrl: balls,    slogan: 'Hit Every Shot',           link: '/catalog/balls'   }
 ];
 
 export default function HeroCarousel() {

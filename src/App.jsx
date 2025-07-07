@@ -10,11 +10,13 @@ import ProductDetail from './pages/ProductDetail';
 import Cart from './pages/Cart';
 import Checkout from './pages/Checkout';
 import Footer from './components/Footer';
+import StartAtTop from './components/StartAtTop';
 
 export default function App() {
   return (
     <CartProvider>
       <HashRouter>
+        <StartAtTop />
         <Header />
         <Navbar />
         <main className="min-h-screen bg-green-50">

@@ -77,7 +77,7 @@ export default function Cart() {
                   onClick={() =>
                     dispatch({ type: 'REMOVE_ITEM', payload: { id: item.id } })
                   }
-                  className="flex items-center text-red-500 hover:text-red-700"
+                  className="flex items-center font-semibold text-red-500 hover:text-red-700"
                 >
                   <TrashIcon className="h-5 w-5 mr-1" /> Remove
                 </button>
