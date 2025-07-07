@@ -13,7 +13,7 @@ import Checkout from './pages/Checkout';
 export default function App() {
   return (
     <CartProvider>
-      <HashRouter basename="/Advantage-YOU">
+      <HashRouter>
         <Header />
         <Navbar />
         <main className="bg-green-50">
