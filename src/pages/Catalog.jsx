@@ -18,7 +18,7 @@ export default function Catalog() {
   }, [category]);
 
   return (
-    <div className="p-6 h-screen max-w-7xl mx-auto">
+    <div className="p-6 max-w-7xl mx-auto">
       {/* Header Row */}
       <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6">
         <h1 className="text-3xl font-bold capitalize mb-4 md:mb-0">

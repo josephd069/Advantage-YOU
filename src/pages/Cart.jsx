@@ -27,7 +27,7 @@ export default function Cart() {
               className="flex items-center space-x-6 border rounded-lg p-4"
             >
               <img
-                src={item.imageUrl}
+                src={`${import.meta.env.BASE_URL}${item.imageUrl}`}
                 alt={item.name}
                 className="w-24 h-24 object-cover rounded-lg"
               />

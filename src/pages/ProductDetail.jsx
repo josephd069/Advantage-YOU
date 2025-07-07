@@ -19,7 +19,7 @@ export default function ProductDetail() {
 
   return (
     <div className="p-6 max-w-4xl h-full mx-auto flex flex-col md:flex-row gap-6">
-      <img src={product.imageUrl} alt={product.name} className="w-full md:w-1/2 h-auto object-cover" />
+      <img src={`${import.meta.env.BASE_URL}${product.imageUrl}`} alt={product.name} className="w-full md:w-1/2 h-auto object-cover" />
       <div className="flex-1 space-y-4">
         <h1 className="text-3xl font-bold">{product.name}</h1>
         <p className="text-gray-700">{product.description}</p>

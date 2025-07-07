@@ -9,7 +9,7 @@ export default function ProductCard({ product }) {
   return (
     <div className="border rounded-lg p-4 flex flex-col shadow-sm hover:shadow-md transition-shadow">
       <Link to={`/product/${product.id}`} className="flex-1">
-        <img src={product.imageUrl} alt={product.name} className="w-full h-48 object-cover rounded-md mb-4" />
+        <img src={`${import.meta.env.BASE_URL}${product.imageUrl}`} alt={product.name} className="w-full h-80 [background-size:100%_100%] rounded-md mb-4" />
         <h3 className="font-semibold text-lg mb-2">{product.name}</h3>
       </Link>
       <p className="font-bold text-xl mb-4">${product.price.toFixed(2)}</p>
