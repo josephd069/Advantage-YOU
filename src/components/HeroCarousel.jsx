@@ -1,9 +1,10 @@
 // src/components/HeroCarousel.jsx
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import racket from  "/images/hero-rackets.jpeg"
 
 const slides = [
-  { category: 'rackets', imageUrl: '/images/hero-rackets.jpeg', slogan: 'Find Your Perfect Swing', link: '/catalog/rackets' },
+  { category: 'rackets', imageUrl: racket, slogan: 'Find Your Perfect Swing', link: '/catalog/rackets' },
   { category: 'grips',   imageUrl: '/images/hero-grips.webp',   slogan: 'Get a Grip on Your Game',  link: '/catalog/grips'   },
   { category: 'apparel', imageUrl: '/images/hero-apparel.webp',  slogan: 'Play in Style',            link: '/catalog/apparel' },
   { category: 'bags',    imageUrl: '/images/hero-bags.jpg',     slogan: 'Carry Your Gear with Ease', link: '/catalog/bags'    },

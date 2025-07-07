@@ -9,13 +9,13 @@ export default function Cart() {
   const total = items.reduce((sum, i) => sum + i.price * i.qty, 0);
 
   return (
-    <div className="max-w-4xl h-screen mx-auto px-6 py-12">
+    <div className="max-w-4xl h-scren mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold mb-8">Your Cart</h1>
 
       {items.length === 0 ? (
         <div className="text-center py-20">
           <p className="text-lg text-gray-600 mb-4">Your cart is empty.</p>
-          <Link to="/Advantage-YOU" className="text-green-600 hover:underline">
+          <Link to="/" className="text-green-600 hover:underline">
             Start Shopping
           </Link>
         </div>
